@@ -113,18 +113,15 @@ a { color: var(--blue-dark); }
 .nav a:hover { border-bottom-color: var(--blue); }
 .header-actions { display: flex; align-items: center; gap: 16px; }
 .lang { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 0.9rem; }
-.lang button {
-  background: none;
-  border: 0;
+.lang a {
   padding: 4px 6px;
-  font: inherit;
   font-weight: 700;
   color: var(--muted);
-  cursor: pointer;
+  text-decoration: none;
   border-radius: 6px;
 }
-.lang button:hover { color: var(--text); }
-.lang button.is-active { color: var(--blue-dark); background: var(--blue-soft); }
+.lang a:hover { color: var(--text); }
+.lang a.is-active { color: var(--blue-dark); background: var(--blue-soft); }
 .burger {
   display: none;
   width: 40px;
