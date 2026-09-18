@@ -1,0 +1,158 @@
+(function () {
+  var EN = {
+    'meta.title': 'Kotonyan · cat sitter in Tbilisi',
+    'meta.desc': 'Juliana, cat sitter in Tbilisi. Cat care at your home or boarding in Bagebi: feeding, litter, play, daily photo updates. Saburtalo, Vake, Bagebi, Vera, Tskneti.',
+    'brand': 'Kotonyan',
+    'nav.about': 'About me',
+    'nav.services': 'Services',
+    'nav.home': 'My home',
+    'nav.cats': 'Cats',
+    'nav.contact': 'Contact',
+    'cta.tg': 'Message on Telegram',
+
+    'hero.kicker': 'Juliana, cat sitter in Tbilisi',
+    'hero.title': 'While you are away, your cat stays home, fed and entertained',
+    'hero.lead': 'I come to your cat at your place or host them at mine in Bagebi. Feeding on schedule, a clean litter box, fresh water, play and cuddles if the cat is up for it. And a photo update every day, so you can see everything is fine.',
+    'hero.areas': 'Saburtalo · Vake · Bagebi · Vera · Tskneti',
+
+    'about.title': 'About me',
+    'about.p1': 'My name is Juliana, I am 37. I have lived in Tbilisi, in Bagebi, for four years with my husband. I work as a product manager for IT conferences, almost always from home, so I have the time and attention your cat deserves: not a ten-minute drop-in, but as long as they need me around.',
+    'about.p2': 'Cats have always been part of my life. My two cats lived with me into old age, so I know what daily care means, in sickness and in health. I do not have my own cat right now: we may relocate next year, and I would not be able to take an animal along at first. Getting a cat only to leave it behind is not something I am willing to do. But I miss having cats around, so I am happy to help other people care for theirs.',
+    'about.p3': 'I have a good feel for cat psychology. I never force contact, never startle, and give them time to get used to me. If the cat is ready, we play and I scratch behind the ears. If they want to be alone, I simply stay nearby and quietly do everything that needs doing.',
+    'about.honest.title': 'Honestly about experience.',
+    'about.honest.text': 'I am not a professional sitter with a hundred cats behind me. I have looked after my friends’ cats: at their homes, including overnight stays, and at mine. I know each of them by name and still keep up with how they are doing. You will meet them below.',
+    'about.f1': '4 years in Tbilisi',
+    'about.f2': 'Working remotely',
+    'about.f3': 'No kids, no pets of my own',
+    'about.f4': 'Russian · English C1 · German A2',
+
+    'services.title': 'Services and prices',
+    'services.lead': 'Three formats, so you can pick what is calmer for the cat and easier for you.',
+    'services.perday': 'GEL / day',
+    'services.c1.title': 'At your home',
+    'services.c1.text': 'I come to your cat and, if needed, stay overnight. The cat keeps its familiar territory, and you get peace of mind about the flat: I will water the plants and collect the mail.',
+    'services.c2.title': 'At my home',
+    'services.c2.text': 'Boarding in Bagebi. A quiet flat with no other animals or children, prepared for a guest.',
+    'services.c3.title': 'Day visits',
+    'services.c3.text': 'One visit a day: feed, clean the litter box, change the water, play and send you photos.',
+    'services.inc.title': 'Included in every format',
+    'services.inc.1': 'Feeding on your schedule, with your food',
+    'services.inc.2': 'Regular water changes',
+    'services.inc.3': 'Daily litter box cleaning',
+    'services.inc.4': 'Medication if needed: I have experience and do it as gently as possible, with minimal stress',
+    'services.inc.5': 'Brushing, if you would like',
+    'services.inc.6': 'Play and cuddles, if the cat does not mind',
+    'services.inc.7': 'A photo update every day',
+    'services.extra.title': 'Extras',
+    'services.extra.1': 'A small discount is possible for 10+ days.',
+    'services.extra.2': 'I can take your cat to the vet or groomer. This is paid separately, with a deposit for the specialist’s services and transport.',
+    'services.extra.3': 'Food strictly as agreed with you. No “treats” of my own.',
+
+    'home.title': 'If your cat stays with me',
+    'home.p1': 'It is just my husband and me, no children and no pets of our own. Your cat gets a calm flat where everything safe is allowed: sleeping on any surface, exploring the shelves, watching the street from the window.',
+    'home.list.title': 'How I prepare the flat for a guest',
+    'home.l1': 'I clear all fragile, heavy and potentially dangerous items from open surfaces',
+    'home.l2': 'Windows and balcony have mosquito screens, but while a cat is in the house, windows open only on the tilt latch',
+    'home.l3': 'I feed only what and how we agreed with you',
+    'home.l4': 'I never force contact: the cat decides when to come closer',
+
+    'cats.title': 'Cats I look after',
+    'cats.lead': 'The cats we have already become friends with.',
+    'cats.kosmos.name': 'Kosmos, 6 years old',
+    'cats.kosmos.p1': 'A cautious cat, a little shy at first, and my regular client. We have tried both formats: I visited him at his place, and he stayed at mine.',
+    'cats.kosmos.p2': 'At first he watched from a distance. Now he comes to say good morning, plays with the wand toy until he runs out of breath and sleeps on my blanket as if it were his own.',
+    'cats.kosmos.c1': 'Good morning, Kosmos',
+    'cats.kosmos.c2': 'At his place, playing',
+    'cats.kosmos.c3': 'Wand toy defeated',
+    'cats.kosmos.c4': 'Visiting me',
+    'cats.kosmos.c5': 'Came to say hello',
+    'cats.rave.name': 'Rave',
+    'cats.rave.p1': 'I looked after him at his home. Master of his territory and his scratching post, patrols strictly on schedule.',
+    'cats.musya.name': 'Musya',
+    'cats.musya.p1': 'I looked after her at her home. Queen of the parquet: loves rolling on her back and making sure everything goes by her rules.',
+
+    'areas.title': 'Where I work',
+    'areas.1': 'Saburtalo',
+    'areas.2': 'Vake',
+    'areas.3': 'Bagebi',
+    'areas.4': 'Vera',
+    'areas.5': 'Tskneti',
+    'areas.text': 'I live in Bagebi, so these areas are a quick trip for me. Somewhere else? Write to me, we will figure it out.',
+
+    'contact.title': 'Let’s meet',
+    'contact.text': 'Message me on Telegram or give me a call. Tell me about your cat, the dates and the format, and we will arrange a meeting: I will come by in advance, so that on the day you leave the cat already knows me.',
+
+    'footer.text': 'Kotonyan · Juliana, cat sitter in Tbilisi',
+
+    'alt.cover': 'A cat dozing on the floor',
+    'alt.home': 'Living room: a bright room, sofa, window with curtains',
+    'alt.kosmosHome1': 'Kosmos sleeping on a blanket',
+    'alt.kosmosMorning': 'Kosmos yawning in the morning',
+    'alt.kosmosPlay2': 'Kosmos standing on hind legs catching a toy',
+    'alt.kosmosPlay1': 'Kosmos lying on his back catching a wand toy',
+    'alt.kosmosHome2': 'Kosmos lying on the floor while visiting',
+    'alt.kosmosSelfie': 'Kosmos resting his paw on Juliana’s shoulder',
+    'alt.rave': 'Rave lying on a scratching post',
+    'alt.musya': 'Musya lying on her back on the parquet'
+  };
+
+  var RU = {};
+  var nodes = document.querySelectorAll('[data-i18n]');
+  var altNodes = document.querySelectorAll('[data-i18n-alt]');
+  var contentNodes = document.querySelectorAll('[data-i18n-content]');
+
+  nodes.forEach(function (el) { RU[el.getAttribute('data-i18n')] = el.textContent; });
+  altNodes.forEach(function (el) { RU[el.getAttribute('data-i18n-alt')] = el.getAttribute('alt'); });
+  contentNodes.forEach(function (el) { RU[el.getAttribute('data-i18n-content')] = el.getAttribute('content'); });
+
+  function apply(lang) {
+    var dict = lang === 'en' ? EN : RU;
+    nodes.forEach(function (el) {
+      var key = el.getAttribute('data-i18n');
+      if (dict[key] !== undefined) el.textContent = dict[key];
+    });
+    altNodes.forEach(function (el) {
+      var key = el.getAttribute('data-i18n-alt');
+      if (dict[key] !== undefined) el.setAttribute('alt', dict[key]);
+    });
+    contentNodes.forEach(function (el) {
+      var key = el.getAttribute('data-i18n-content');
+      if (dict[key] !== undefined) el.setAttribute('content', dict[key]);
+    });
+    document.documentElement.lang = lang;
+    document.querySelectorAll('.lang button').forEach(function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-lang') === lang);
+    });
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+  }
+
+  function initialLang() {
+    var fromHash = location.hash === '#en' ? 'en' : location.hash === '#ru' ? 'ru' : null;
+    if (fromHash) return fromHash;
+    try {
+      var saved = localStorage.getItem('lang');
+      if (saved === 'en' || saved === 'ru') return saved;
+    } catch (e) {}
+    var nav = (navigator.language || '').toLowerCase();
+    return nav.indexOf('ru') === 0 ? 'ru' : 'en';
+  }
+
+  document.querySelectorAll('.lang button').forEach(function (b) {
+    b.addEventListener('click', function () { apply(b.getAttribute('data-lang')); });
+  });
+
+  apply(initialLang());
+
+  var burger = document.getElementById('burger');
+  var nav = document.getElementById('nav');
+  burger.addEventListener('click', function () {
+    var open = nav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      nav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
