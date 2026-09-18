@@ -30,7 +30,7 @@
     'services.lead': 'Three formats, so you can pick what is calmer for the cat and easier for you.',
     'services.perday': 'GEL / day',
     'services.c1.title': 'At your home',
-    'services.c1.text': 'I come to your cat and, if needed, stay overnight. The cat keeps its familiar territory, and you get peace of mind about the flat: I will water the plants, collect the mail, and leave the flat in perfect order when I go.',
+    'services.c1.text': 'I come to your cat and, if needed, stay overnight. The cat keeps its familiar territory, and you get peace of mind about the flat: I will leave it in perfect order when I go.',
     'services.c2.title': 'At my home',
     'services.c2.text': 'Boarding in Bagebi. A quiet flat with no other animals or children, prepared for a guest.',
     'services.c3.title': 'Day visits',
