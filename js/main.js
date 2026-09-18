@@ -11,16 +11,16 @@
     'cta.tg': 'Message on Telegram',
 
     'hero.kicker': 'Juliana, cat sitter in Tbilisi',
-    'hero.title': 'While you are away, your cat stays home, fed and entertained',
+    'hero.title': 'I will look after your cat while you are away',
     'hero.lead': 'I come to your cat at your place or host them at mine in Bagebi. Feeding on schedule, a clean litter box, fresh water, play and cuddles if the cat is up for it. And a photo update every day, so you can see everything is fine.',
     'hero.areas': 'Saburtalo · Vake · Bagebi · Vera · Tskneti',
 
     'about.title': 'About me',
-    'about.p1': 'My name is Juliana, I am 37. I have lived in Tbilisi, in Bagebi, for four years with my husband. I work as a product manager for IT conferences, almost always from home, so I have the time and attention your cat deserves: not a ten-minute drop-in, but as long as they need me around.',
-    'about.p2': 'Cats have always been part of my life. My two cats lived with me into old age, so I know what daily care means, in sickness and in health. I do not have my own cat right now: we may relocate next year, and I would not be able to take an animal along at first. Getting a cat only to leave it behind is not something I am willing to do. But I miss having cats around, so I am happy to help other people care for theirs.',
+    'about.p1': 'My name is Juliana, I am 37. I have lived in Tbilisi, in Bagebi, for four years with my husband. I work as a product manager for IT conferences, almost always from home, so I have the time and attention your cat deserves.',
+    'about.p2': 'Cats have always been part of my life. My two cats lived with me into old age, so I know what daily care means, in sickness and in health. I do not have my own cat right now: we may relocate next year, and I would not be able to take an animal along at first. But I miss having cats around, so I am happy to help other people care for theirs.',
     'about.p3': 'I have a good feel for cat psychology. I never force contact, never startle, and give them time to get used to me. If the cat is ready, we play and I scratch behind the ears. If they want to be alone, I simply stay nearby and quietly do everything that needs doing.',
-    'about.honest.title': 'Honestly about experience.',
-    'about.honest.text': 'I am not a professional sitter with a hundred cats behind me. I have looked after my friends’ cats: at their homes, including overnight stays, and at mine. I know each of them by name and still keep up with how they are doing. You will meet them below.',
+    'about.honest.title': 'About my experience.',
+    'about.honest.text': 'My experience is still modest, and I am honest about that. I have looked after my friends’ cats: at their homes, including overnight stays, and at mine. I know each of them by name and still keep up with how they are doing. You will meet them below.',
     'about.f1': '4 years in Tbilisi',
     'about.f2': 'Working remotely',
     'about.f3': 'No kids, no pets of my own',
@@ -30,7 +30,7 @@
     'services.lead': 'Three formats, so you can pick what is calmer for the cat and easier for you.',
     'services.perday': 'GEL / day',
     'services.c1.title': 'At your home',
-    'services.c1.text': 'I come to your cat and, if needed, stay overnight. The cat keeps its familiar territory, and you get peace of mind about the flat: I will water the plants and collect the mail.',
+    'services.c1.text': 'I come to your cat and, if needed, stay overnight. The cat keeps its familiar territory, and you get peace of mind about the flat: I will water the plants, collect the mail, and leave the flat in perfect order when I go.',
     'services.c2.title': 'At my home',
     'services.c2.text': 'Boarding in Bagebi. A quiet flat with no other animals or children, prepared for a guest.',
     'services.c3.title': 'Day visits',
@@ -71,7 +71,7 @@
     'cats.musya.name': 'Musya',
     'cats.musya.p1': 'I looked after her at her home. Queen of the parquet: loves rolling on her back and making sure everything goes by her rules.',
 
-    'areas.title': 'Where I work',
+    'areas.title': 'Where I can help',
     'areas.1': 'Saburtalo',
     'areas.2': 'Vake',
     'areas.3': 'Bagebi',
@@ -80,7 +80,7 @@
     'areas.text': 'I live in Bagebi, so these areas are a quick trip for me. Somewhere else? Write to me, we will figure it out.',
 
     'contact.title': 'Let’s meet',
-    'contact.text': 'Message me on Telegram or give me a call. Tell me about your cat, the dates and the format, and we will arrange a meeting: I will come by in advance, so that on the day you leave the cat already knows me.',
+    'contact.text': 'Message me on Telegram or give me a call. Tell me about your cat, the dates and the format, and we will arrange a meeting. If needed, I will come by in advance, so that on the day you leave the cat already knows me.',
 
     'footer.text': 'Kotonyan · Juliana, cat sitter in Tbilisi',
 

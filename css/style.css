@@ -177,20 +177,17 @@ a { color: var(--blue-dark); }
 }
 
 /* About */
-.about-grid {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: clamp(32px, 5vw, 64px);
-  align-items: start;
-}
-.about-photo img {
+.about { max-width: 820px; }
+.about-text::after { content: ""; display: block; clear: both; }
+.about-photo {
+  float: left;
+  width: 168px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 72%;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center 70%;
-  position: sticky;
-  top: 90px;
+  margin: 6px 24px 12px 0;
 }
 .callout {
   background: var(--bg-alt);
@@ -301,10 +298,11 @@ a { color: var(--blue-dark); }
   object-fit: cover;
   border-radius: 14px;
 }
+.gallery figure:last-child img { object-position: center 60%; }
 .gallery figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
 .cats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-.cats-row .cat { display: grid; grid-template-columns: 0.8fr 1.2fr; }
-.cats-row .cat img { height: 100%; object-fit: cover; aspect-ratio: 3 / 4; }
+.cats-row .cat { display: grid; grid-template-columns: 0.8fr 1.2fr; align-items: start; }
+.cats-row .cat img { width: 100%; object-fit: cover; aspect-ratio: 3 / 4; }
 
 /* Areas */
 .areas { text-align: center; }
@@ -352,18 +350,15 @@ a { color: var(--blue-dark); }
 
 @media (max-width: 720px) {
   body { font-size: 16px; }
-  .hero-grid, .about-grid, .home-grid, .cats-row { grid-template-columns: 1fr; }
+  .hero-grid, .home-grid, .cats-row { grid-template-columns: 1fr; }
   .hero-photo { order: -1; }
   .hero-photo::before { inset: 10% -4% -6% 8%; }
-  .about-photo img { position: static; aspect-ratio: 4 / 3; object-position: center 60%; }
+  .about-photo { width: 120px; margin: 4px 16px 8px 0; }
   .home-photos img:first-child { aspect-ratio: 4 / 3; }
   .home-photos img:last-child { aspect-ratio: 3 / 4; }
   .gallery { grid-template-columns: repeat(2, 1fr); padding: 0 20px 20px; }
   .gallery figure:nth-child(n+4) img { aspect-ratio: 3 / 4; }
-  .gallery figure:last-child { grid-column: span 2; }
-  .gallery figure:last-child img { aspect-ratio: 4 / 3; object-position: center 45%; }
   .cats-row .cat { grid-template-columns: 1fr; }
-  .cats-row .cat img { aspect-ratio: 4 / 3; }
   .cat-text { padding: 20px; }
   .included { padding: 24px 20px; }
   .card { padding: 22px; }
